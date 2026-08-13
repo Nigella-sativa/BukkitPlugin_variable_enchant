@@ -1,0 +1,6 @@
+com\test\gitee\hello_spigot\Hello_spigot.class
+com\test\gitee\hello_spigot\recipe\MyRecipe.class
+com\test\gitee\hello_spigot\command\VillagerCommand.class
+com\test\gitee\hello_spigot\listener\MyListener.class
+com\test\gitee\hello_spigot\command\TaskCommand.class
+com\test\gitee\hello_spigot\command\OpenCommand.class

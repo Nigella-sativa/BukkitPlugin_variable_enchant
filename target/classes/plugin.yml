@@ -1,0 +1,30 @@
+name: hello_spigot
+version: '1.0-SNAPSHOT'
+main: com.test.gitee.hello_spigot.Hello_spigot
+api-version: '1.21'
+
+
+commands:
+  villager:
+    description: "生成一个村民"
+#    命令执行失败以后会给下面的提示信息发送给玩家
+    usage: '使用 /villager 在玩家所在位置生成一个村民'
+#    权限信息
+    permission: fortern.op
+  open:
+    description: '打开物品栏'
+    usage: "使用 /open 在玩家队伍的物品栏"
+    permission: fortern.all
+  task:
+    description: '演示任务调度器'
+    usage: '使用/task 执行一些同步或异步的任务'
+    permission: fortern.op
+
+permissions:
+  fortern.all:
+    description: '普通权限'
+    default: true
+  fortern.op:
+    description: '管理员权限'
+    default: op
+
